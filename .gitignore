@@ -1,0 +1,47 @@
+# ==============================
+# DONNÉES — NE PAS VERSIONNER
+# ==============================
+data/
+raw_data/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+
+# ==============================
+# ENVIRONNEMENT PYTHON
+# ==============================
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# ==============================
+# MODÈLES ENTRAÎNÉS (trop lourds pour Git)
+# ==============================
+models/*.h5
+models/*.keras
+models/*.pkl
+
+# ==============================
+# RÉSULTATS / LOGS
+# ==============================
+results/
+logs/
+*.log
+
+# ==============================
+# JUPYTER
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# SYSTÈME
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
